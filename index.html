@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofri’s Energy Economics AI</title>
+</head>
+<body>
+    <h1>Ofri’s Energy Economics AI</h1>
+    <p>Ask me about Ofri’s professional background.</p>
+
+    <input
+        type="text"
+        id="question"
+        placeholder="Type your question here"
+    >
+    <button id="ask-button">Ask</button>
+
+    <p id="answer"></p>
+
+    <script>
+        const questionInput = document.getElementById("question");
+        const askButton = document.getElementById("ask-button");
+        const answerParagraph = document.getElementById("answer");
+
+        async function askQuestion() {
+            const question = questionInput.value;
+
+            answerParagraph.textContent = "Thinking...";
+
+            const response = await fetch("/api/chat", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    question: question
+                })
+            });
+
+            const data = await response.json();
+            answerParagraph.textContent = data.answer;
+        }
+
+        askButton.addEventListener("click", askQuestion);
+    </script>
+</body>
+</html>
