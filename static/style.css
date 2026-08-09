@@ -160,3 +160,20 @@ button:disabled {
         width: 100%;
     }
 }
+
+.disclaimer {
+    max-width: 780px;
+    margin: 22px auto 0;
+    padding: 0 12px;
+    color: #6d7f79;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.disclaimer p {
+    margin: 0 0 10px;
+}
+
+.disclaimer strong {
+    color: #4e625b;
+}
