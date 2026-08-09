@@ -4,45 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofri’s Energy Economics AI</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Ofri’s Energy Economics AI</h1>
-    <p>Ask me about Ofri’s professional background.</p>
+    <main class="page-container">
+        <header class="page-header">
+            <h1>Ofri’s Energy Economics AI</h1>
 
-    <input
-        type="text"
-        id="question"
-        placeholder="Type your question here"
-    >
-    <button id="ask-button">Ask</button>
+            <p class="subtitle">
+                Ask about my professional experience, research, and work in
+                energy economics.
+            </p>
+        </header>
 
-    <p id="answer"></p>
+        <section class="chat-container">
+            <div id="chat-history" class="chat-history">
+                <div class="welcome-message">
+                    Ask me about Ofri’s experience, research, and work in energy economics.
+                </div>
+            </div>
+        
+            <div class="question-area">
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask a follow-up question..."
+                >
+                <button id="ask-button">Ask</button>
+            </div>
+        </section>
+    </main>
 
     <script>
         const questionInput = document.getElementById("question");
         const askButton = document.getElementById("ask-button");
-        const answerParagraph = document.getElementById("answer");
-
-        async function askQuestion() {
-            const question = questionInput.value;
-
-            answerParagraph.textContent = "Thinking...";
-
-            const response = await fetch("/api/chat", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    question: question
-                })
-            });
-
-            const data = await response.json();
-            answerParagraph.textContent = data.answer;
+        const chatHistory = document.getElementById("chat-history");
+    
+        const conversation = [];
+    
+        function addMessage(role, text) {
+            const message = document.createElement("div");
+            message.classList.add("message", role);
+            message.textContent = text;
+    
+            chatHistory.appendChild(message);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+    
+            return message;
         }
-
+    
+        async function askQuestion() {
+            const question = questionInput.value.trim();
+    
+            if (!question || askButton.disabled) {
+                return;
+            }
+    
+            const previousHistory = [...conversation];
+    
+            addMessage("user", question);
+    
+            conversation.push({
+                role: "user",
+                content: question
+            });
+    
+            questionInput.value = "";
+            askButton.disabled = true;
+    
+            const thinkingMessage = addMessage(
+                "assistant",
+                "Thinking..."
+            );
+    
+            try {
+                const response = await fetch("/api/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        history: previousHistory
+                    })
+                });
+    
+                if (!response.ok) {
+                    throw new Error("The request failed.");
+                }
+    
+                const data = await response.json();
+    
+                thinkingMessage.textContent = data.answer;
+    
+                conversation.push({
+                    role: "assistant",
+                    content: data.answer
+                });
+            } catch (error) {
+                thinkingMessage.textContent =
+                    "Something went wrong. Please try again.";
+    
+                conversation.pop();
+            } finally {
+                askButton.disabled = false;
+                questionInput.focus();
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
+        }
+    
         askButton.addEventListener("click", askQuestion);
+    
+        questionInput.addEventListener("keydown", function (event) {
+            if (event.key === "Enter") {
+                askQuestion();
+            }
+        });
     </script>
 </body>
 </html>
