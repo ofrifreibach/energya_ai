@@ -1,46 +1,265 @@
-Energy economist with four years of experience leading techno-economic modeling and advising government and private-sector
-clients on renewable energy, battery storage, and climate policy. Experienced in investment appraisal, regulatory and market
-analysis, storage optimization, econometrics, and translating complex quantitative analysis into decision-ready recommendations.
-PROFESSIONAL EXPERIENCE
-Independent Energy Economics Consultant | Self-employed Feb 2026–Present
-• Provide economic research and modeling services in renewable energy, energy storage, greenhouse-gas life-cycle analysis, and
-emissions-reduction strategies.
-• Mentor participants in the Yannay Institute for Energy Security internship program.
-Senior Economist | EcoTraders 2022–2025
-• Led the development of a flexible techno-economic model assessing the financial viability and required government support
-for different PV and battery storage configurations, while optimizing battery capacity based on tariffs, regulation, generation
-profiles, and project economics.
-• Managed Israel's national greenhouse-gas emissions projection model for two consecutive years, generating projections used
-in official national reports submitted to the United Nations Framework Convention on Climate Change and presented at the
-annual Conference of the Parties.
-• Presented conclusions through reports, executive presentations, and dashboards; managed one direct report.
-Economist (Student) | Ministry of Agriculture and Rural Development 2020–2022
-• Conducted market research and economic analysis, assessing policy effects on domestic industries, competition, prices, and
-market conditions.
-• Translated quantitative findings into policy recommendations for senior decision-makers and led the ministry's 2022 report on
-Israel's wine industry.
-EDUCATION
-MA in Economics | The Hebrew University of Jerusalem 2022–2025
-Thesis (Grade 95): “From Financial Incentives to Installation: The Economics of Solar Adoption in Israel”
-• Examined how system costs and feed-in tariff levels and structures affect the diffusion of photovoltaic systems in Israel.
-• Built an 18-million-observation panel dataset covering approximately 1.3 million rooftops and 50,000 PV adopters; applied
-probit and discrete-time hazard models to estimate how tariffs and expected project returns affect PV deployment.
-BSc in Environmental Economics and Management, with distinction 2019–2022
-ANALYTICAL & TECHNICAL SKILLS
-Energy economics and financial modeling: Techno-economic modeling, PV and storage optimization modeling, cost-benefit analysis,
-regulatory analysis.
-Quantitative methods: Econometrics, statistical analysis, large-scale panel data, market research, data visualization
-Tools: Excel – advanced (Power Query and macros); R – advanced; Python – intermediate
-Languages: Hebrew – native; English – fluent
-MILITARY SERVICE
-Captain | Israeli Air Defense Forces 2012–2017
-• Served as deputy commander of a 120-person Iron Dome battery, supporting operational management, personnel leadership,
-training, and mission readiness.
-• Managed international cooperation courses in air force battle management, coordinating professional content, logistics,
-participants, and operational stakeholders; previously served as a procedures and doctrine officer.
-MAIN PUBLICATIONS
-• Geographic-Energetic-Economic Model for the Advancement of Renewable Energy — Ecology and Environment, 2024 | Lead
-author
-• Energy Security and Public Health in Gush Dan: A Renewable Energy and Storage-Based Solution — Ministry of Energy, 2023 |
-Lead author
-• Israel's Greenhouse Gas Emissions Reduction Report — Ministry of Environmental Protection, 2023–2024 | Lead author
+OFRI FREIBACH - APPROVED PROFESSIONAL AND PERSONAL PROFILE
+
+PURPOSE AND ANSWERING RULES
+
+This file is the approved knowledge source for answering questions about Ofri Freibach. The assistant may explain, summarize, and connect facts contained here, but must not invent employers, projects, responsibilities, publications, quantitative results, qualifications, or personal details.
+
+Answer in the language used by the user. If the user writes in Hebrew, answer in natural professional Hebrew and use the Hebrew terminology in the glossary at the end of this file. If the user writes in English, answer in English. Keep simple answers concise, but give technically detailed explanations when the user asks about the thesis, econometrics, financial modeling, energy policy, greenhouse-gas projections, or a specific project.
+
+Use first name "Ofri" in English and "עופרי" in Hebrew. Use feminine pronouns. Do not disclose her telephone number, email address, home address, or other private contact details. If asked how to contact her, direct the user to the contact information on the website or CV.
+
+If a requested fact is not in this profile, say that the information is not available in Ofri's approved profile. Clearly distinguish what Ofri actually did from the broader policy context. Do not describe associations as causal when the thesis itself identifies endogeneity or other limitations.
+
+
+SHORT PROFESSIONAL SUMMARY
+
+Ofri Freibach is an energy economist based in Tel Aviv, specializing in renewable energy, energy storage, techno-economic modeling, econometrics, and energy and climate-policy analysis. She holds an MA in Economics from the Hebrew University of Jerusalem and a BSc in Environmental Economics and Management, with distinction. She has four years of professional experience advising government and private-sector clients and translating complex quantitative analysis into decision-ready recommendations.
+
+Her experience includes PV and battery-storage optimization modeling, investment appraisal, cost-benefit analysis, greenhouse-gas emissions projections, greenhouse-gas life-cycle analysis, market research, dashboards, professional reports, and presentations to decision-makers.
+
+
+CURRENT WORK
+
+Since February 2026, Ofri has worked as an independent energy-economics consultant. She provides economic research and modeling services in renewable energy, energy storage, greenhouse-gas life-cycle analysis, and emissions-reduction strategies. She also mentors participants in the Yannay Institute for Energy Security internship program.
+
+
+ECOTRADERS - SENIOR ECONOMIST, 2022-2025
+
+At EcoTraders, Ofri led analytical projects at the intersection of energy economics, regulation, climate policy, and investment decision-making. Her work included the following major modeling areas.
+
+1. PV AND BATTERY-STORAGE TECHNO-ECONOMIC MODEL
+
+Ofri led the development of a flexible techno-economic model designed to evaluate the financial viability of photovoltaic generation and battery-storage configurations and to estimate the government support required for deployment under different scenarios.
+
+The model assessed different PV and battery-storage configurations and optimized battery capacity based on tariffs, regulation, generation profiles, and project economics. It was used to assess financial viability and the government support required under the configurations examined.
+
+Do not add technical details about the model's dispatch logic, electrical design, financing structure, software architecture, or optimization method unless they are supplied in a future approved source.
+
+2. ISRAEL'S NATIONAL GREENHOUSE-GAS EMISSIONS PROJECTION MODEL
+
+For two consecutive reporting years, Ofri managed Israel's national greenhouse-gas emissions projection model. The projections were used in official national reports submitted to the United Nations Framework Convention on Climate Change (UNFCCC) and presented at the annual Conference of the Parties (COP).
+
+The official Israeli climate framework distinguishes projections from the national greenhouse-gas inventory: the inventory records historical emissions and removals, while projections estimate future emissions under stated assumptions and scenarios. This distinction is background context. Do not attribute specific sectoral calculations, data-integration tasks, scenario design, inventory work, or sole authorship of national reports to Ofri unless a future approved source verifies them.
+
+Israel's 2025 Biennial Transparency Report describes projections through 2040 and includes "with existing measures" and "with additional measures" scenarios. This later report may be used only as general context and must not be presented as a description of the exact version Ofri managed.
+
+3. COMMUNICATION AND LEADERSHIP
+
+Ofri translated technical analysis into reports, executive presentations, dashboards, and recommendations for government and private-sector decision-makers. She managed one direct report. Her strength is not only building quantitative models, but explaining what the results mean for investment, regulation, implementation, and public policy.
+
+
+MINISTRY OF AGRICULTURE AND RURAL DEVELOPMENT - ECONOMIST, 2020-2022
+
+Ofri conducted market research and economic analysis for the Ministry of Agriculture and Rural Development. She assessed how policy affects domestic industries, competition, prices, and market conditions and translated quantitative findings into recommendations for senior decision-makers. She led the ministry's 2022 report on Israel's wine industry.
+
+
+MASTER'S THESIS
+
+Title: "From Financial Incentives to Installation: The Economics of Solar Adoption in Israel"
+
+Institution: The Hebrew University of Jerusalem
+
+Degree: Research-based MA in Economics, 2022-2025
+
+Thesis grade: 95
+
+Advisor: Professor Alon Eizenberg
+
+Research question
+
+The thesis asks how upfront PV installation costs and the expected future revenue created by Israel's changing feed-in-tariff schemes affect the probability that a potential adopter installs a photovoltaic system. It also quantifies the fiscal costs and social benefits of a marginal increase in the tariff for selected system-size segments.
+
+Why the question matters
+
+Israel has abundant solar resources and relies primarily on PV for renewable electricity, but adoption has been uneven even when projects appear financially attractive. Policymakers therefore need to know whether changing financial incentives actually induces additional installations, which market segments respond most strongly, and how much public or consumer-funded support is paid to projects that would have been installed anyway. The thesis connects private investment behavior to the public-policy objective of expanding renewables while controlling the excess cost of support schemes.
+
+Data construction
+
+Ofri built an individual-level panel covering Israel's current and potential dual-use rooftop PV installations from 2008 through 2025. The empirical models use 18,881,908 individual-year observations. The CV summarizes the underlying data as covering approximately 1.3 million rooftops and 50,000 PV adopters.
+
+The dataset combines:
+
+- administrative records of grid-connected PV installations;
+- detailed feed-in-tariff regulations and tariff schedules;
+- estimates of PV installation costs over time and by system size;
+- GIS-based information on buildings and rooftop areas;
+- municipality-level grid, built-environment, and socioeconomic variables.
+
+Potential rooftop capacity was estimated from building area and assumptions about usable roof area by building type. A Ministry of Energy benchmark of roughly 7 square meters per kW was used. Usable-roof shares differed by building category: 20% for residential buildings, 70% for industrial buildings, and 40% for other buildings such as education, health, and government facilities. Installed systems were reconciled with the potential-building population to avoid double counting.
+
+Each potential adopter appears once per year until adoption. Adoption is treated as a terminal event: after installing, the adopter exits the risk set. Non-adopters are observed through 2025 and are right-censored. The model focuses on the extensive margin - whether to install a technically feasible system now or wait - rather than jointly estimating the optimal system size and installation timing.
+
+Financial model inside the thesis
+
+For every rooftop-year observation, Ofri constructed measures of expected project economics under the tariff and cost conditions relevant to that rooftop, system size, regulation, and year.
+
+The benchmark assumptions include a 25-year economic lifetime, a 6% real annual discount rate, first-year generation of 1,700 kWh per installed kW, annual generation degradation of 0.6%, and annual operating and maintenance costs equal to 1.7% of upfront investment cost.
+
+The principal financial measures are:
+
+- Upfront cost: technically feasible system size multiplied by the applicable cost per kW.
+- Discounted net benefits: the present value of annual feed-in-tariff revenue minus operating and maintenance costs over the system lifetime.
+- Net present value (NPV): discounted net benefits minus upfront cost.
+- Levelized cost of electricity (LCOE): the present value of capital cost divided by the present value of lifetime electricity production. In this thesis, O&M remains on the benefit side to preserve a clean distinction between upfront costs and future net flows.
+- Average discounted benefit per kWh: discounted net benefits divided by discounted lifetime production.
+- Markup: average discounted benefit per kWh minus LCOE. This is equivalent to NPV per discounted kWh and represents the policy-created profitability margin. A positive markup corresponds to positive NPV, zero is the break-even point, and a negative markup indicates that the project is financially unattractive under the benchmark assumptions.
+
+The markup is especially useful because it reduces a complex stream of changing tariffs, degradation, costs, and operating expenses to one comparable NIS-per-kWh measure across systems, years, sizes, and regulatory regimes.
+
+Econometric approach
+
+The adoption decision is modeled in a random-utility, binary discrete-choice framework. In each year, a potential adopter chooses between installing and not installing. The observed component of the utility difference depends on the relevant financial-return measure, municipality and policy controls, system-size segment, and year effects.
+
+Ofri estimated linear probability models and pooled probit models. Linear probability models made it computationally feasible to estimate multiple specifications, high-dimensional interactions, and year fixed effects on nearly 19 million observations. Their limitations are acknowledged: fitted probabilities can lie outside zero and one, marginal effects are constant, and errors are heteroskedastic. The pooled probit model was estimated for the markup specification. Average marginal effects were reported so results could be interpreted as changes in adoption probability. Standard errors were clustered by municipality to account for correlation within municipalities over time.
+
+Four complementary specifications were used:
+
+1. upfront cost and discounted future benefits entered separately;
+2. LCOE and average discounted benefits per kWh entered separately;
+3. NPV as one combined profitability measure;
+4. markup as a per-kWh profitability measure.
+
+Financial measures were interacted with regulatory system-size bins: under 15 kW, 15-100 kW, 100-200 kW, 200-300 kW, 300-630 kW, and above 630 kW. This allows the relationship between profitability and adoption to differ across segments with different owners, regulations, financing constraints, and grid or permitting barriers.
+
+Controls included a proxy for grid-connectivity conditions, eligibility for an expedited connection track, eligibility for an urban tariff premium, population density, wages, homeownership, and urban-renewal activity. Year fixed effects absorb common national shocks such as macroeconomic changes, broad technology-cost trends, and nationwide policy changes.
+
+Main findings
+
+For systems up to 100 kW, the results consistently show that higher expected returns and lower costs are associated with higher adoption. This pattern is robust across the alternative financial measures and both the linear probability and probit approaches.
+
+For the under-15 kW and 15-100 kW segments, adoption was not substantially more responsive to an equivalent reduction in upfront cost than to an increase in discounted future benefits. The thesis therefore finds no clear evidence, within this framework, that potential adopters are disproportionately focused on upfront cost or strongly short-sighted about future tariff income.
+
+In the year-fixed-effects probit model, a 0.01 NIS/kWh increase in markup was associated with an estimated increase in annual adoption probability of approximately 0.004 percentage points for systems under 15 kW and 0.022 percentage points for systems of 15-100 kW.
+
+For systems above 100 kW, estimates were unstable and sometimes negative. The thesis explicitly warns against interpreting this as evidence that higher profitability causes lower adoption. A more plausible explanation is policy endogeneity: regulators raised tariffs in segments where adoption was already weak. These larger projects are also more exposed to unobserved grid, permitting, financing, and timing constraints. The results for these segments are therefore mainly descriptive and do not receive a clean causal interpretation.
+
+Policy cost-effectiveness exercise
+
+Ofri translated estimated marginal effects into concrete policy units: expected additional installations, installed capacity, lifetime electricity generation, additional feed-in-tariff payments, monetized social benefits, and net cost per induced kWh.
+
+The key distinction is between payments on additional generation associated with induced adoption and higher payments on baseline generation that would have existed without the tariff increase.
+
+Using 2022 as a reference year and a hypothetical 0.01 NIS/kWh tariff increase, the thesis estimated:
+
+- Under 15 kW: about 37 additional installations, 366 kW of additional capacity, 14.7 GWh of additional lifetime generation, approximately NIS 10 million in incremental tariff payments, approximately NIS 6 million in social benefits, and a net cost of about NIS 0.26 per additional kWh.
+- 15-100 kW: 1,391 kW of additional capacity, 55.6 GWh of additional lifetime generation, approximately NIS 91 million in incremental tariff payments, approximately NIS 24 million in social benefits, and a net cost of about NIS 1.22 per additional kWh.
+
+The thesis contains an internal inconsistency in the 15-100 kW installation count: the prose reports 2,318 additional systems, while the reported capacity and representative system size imply about 23. Do not give an installation count for this segment unless the thesis is formally corrected by Ofri.
+
+The social-benefit accounting includes avoided fuel costs, avoided investment in conventional power plants, reduced distribution and transmission requirements, avoided grid losses, avoided air-pollution and greenhouse-gas damages, and energy-security benefits.
+
+The policy implication is not that the thesis derives a single optimal tariff. Rather, it provides a transparent, segment-specific framework for choosing where incentives are likely to induce more deployment relative to their cost. It shows why differentiated tariffs by system size can be more effective than a uniform increase and why policymakers must account for payments to existing generation as well as the additional renewable generation induced.
+
+Important limitations and interpretation
+
+- Tariffs were not randomly assigned. The regulator adjusted tariffs partly in response to observed costs and weak adoption, creating a policy-feedback problem.
+- Individual fixed effects were not included, so unobserved time-invariant differences between potential adopters may remain.
+- The model is static: it estimates annual adoption versus waiting but does not solve a full dynamic optimization problem.
+- Technically feasible system size is treated as predetermined rather than jointly chosen with adoption timing.
+- The 6% discount rate is a financial benchmark, not an estimate of each household's or firm's subjective discount rate. A higher rate would generally reduce NPV and markup and increase LCOE.
+- Peer effects and other behavioral frictions are not separately identified.
+- Identification is strongest for systems up to 100 kW. Results for systems above 100 kW are treated cautiously and are not given a clean causal interpretation.
+
+
+EDUCATION AND TECHNICAL SKILLS
+
+Ofri earned an MA in Economics from the Hebrew University of Jerusalem (2022-2025) and a BSc in Environmental Economics and Management, with distinction (2019-2022).
+
+Her methods and skills include techno-economic modeling, PV and storage optimization, cost-benefit analysis, investment appraisal, econometrics, statistical analysis, large-scale panel data, regulatory and market analysis, greenhouse-gas projections, data visualization, and communicating results to decision-makers.
+
+Tools: advanced R; advanced Excel, including Power Query and macros; intermediate Python. Hebrew is her native language and she is fluent in English.
+
+
+MILITARY LEADERSHIP
+
+Ofri served in the Israeli Air Defense Forces from 2012 to 2017 and reached the rank of Captain. She served as deputy commander of a 120-person Iron Dome battery, supporting operational management, personnel leadership, training, and mission readiness. She also managed international-cooperation courses in air-force battle management, coordinating professional content, logistics, participants, and operational stakeholders, and previously served as a procedures and doctrine officer.
+
+This experience demonstrates leadership, responsibility under pressure, coordination across functions, training, and management at a scale larger than her formal civilian direct-report experience.
+
+
+PUBLICATIONS
+
+1. "Geographic-Energetic-Economic Model for the Advancement of Renewable Energy" (Ecology and Environment, 2024). Ofri was lead author. The work presents a geographic-energy-economic approach to advancing renewable energy and estimating usable renewable-energy potential in the built environment.
+Link: https://magazine.isees.org.il/?p=58000
+
+2. "Energy Security and Public Health in Gush Dan: A Renewable Energy and Storage-Based Solution" (Ministry of Environmental Protection, 2023). Ofri was lead author. The official page describes a framework based on distributed solar generation combined with energy storage to support energy security and public health in the Gush Dan metropolitan area.
+Link: https://www.gov.il/he/pages/energy-security
+
+3. "Israel's Greenhouse Gas Emissions Reduction Report" (Ministry of Environmental Protection, 2023-2024). Ofri was lead author. The reports assess progress in implementing emissions-reduction policy and use national emissions projections to evaluate expected progress toward Israel's climate targets.
+Link provided in Ofri's CV: https://www.gov.il/BlobFolder/reports/reports_reducing_ghg_emissions_in_israel/he/climate_change_and_energy_efficiency_efficiency_reduction_greenhouse_gas_emissions_2022_report.pdf
+
+4. Master's thesis: "From Financial Incentives to Installation: The Economics of Solar Adoption in Israel" (Hebrew University of Jerusalem, December 2025).
+
+
+PERSONAL INTERESTS
+
+Outside work, Ofri enjoys surfing, climbing, baking sourdough bread, reading literature and classics, and making specialty coffee. These interests may be mentioned when a user asks about her personally, her hobbies, or work-life interests. Do not infer competitive achievements, certifications, or skill levels that are not stated here.
+
+
+HEBREW TERMINOLOGY AND PREFERRED PHRASING
+
+Use natural Hebrew phrasing and the following terms:
+
+- energy economist: כלכלנית אנרגיה
+- renewable energy: אנרגיה מתחדשת / אנרגיות מתחדשות
+- energy storage: אגירת אנרגיה
+- battery storage: אגירה בסוללות
+- techno-economic model/modeling: מודל טכנו-כלכלי / מידול טכנו-כלכלי
+- financial viability: כדאיות כלכלית / כדאיות פיננסית, depending on context
+- investment appraisal: בחינת כדאיות השקעה
+- photovoltaic system (PV): מערכת פוטו-וולטאית / מערכת סולארית
+- rooftop PV: מערכת סולארית על גג / מערכת פוטו-וולטאית על גג
+- dual-use PV: מערכת סולארית בדו-שימוש
+- feed-in tariff (FiT): תעריף הזנה לרשת / תעריף מובטח לייצור חשמל
+- tariff scheme: אסדרה תעריפית
+- upfront cost: עלות השקעה ראשונית
+- capital expenditure (CAPEX): הוצאות הון / עלות השקעה
+- operating expenditure (OPEX): הוצאות תפעול
+- operation and maintenance (O&M): תפעול ותחזוקה
+- net present value (NPV): ערך נוכחי נקי (ענ"נ)
+- levelized cost of electricity (LCOE): עלות מיוצבת של חשמל
+- discounted benefits: תועלות מהוונות / הכנסות עתידיות מהוונות, according to context
+- discount rate: שיעור היוון
+- markup, in the thesis: מרווח רווחיות לקוט"ש; explain as the difference between the discounted benefit per kWh and the levelized cost per kWh
+- discrete-choice model: מודל בחירה בדידה
+- random-utility model: מודל תועלת מקרית
+- linear probability model (LPM): מודל הסתברות ליניארי
+- probit model: מודל פרוביט
+- pooled probit: פרוביט מאוחד על נתוני פאנל
+- panel data: נתוני פאנל
+- individual-year observation: תצפית פרט-שנה / תצפית גג-שנה
+- discrete-time hazard model: מודל סיכון בזמן בדיד; explain as estimating the probability of adoption in each year among those who have not yet adopted
+- year fixed effects: אפקטים קבועים לשנה
+- individual fixed effects: אפקטים קבועים לפרט
+- average marginal effect (AME): השפעה שולית ממוצעת
+- clustered standard errors: טעויות תקן מקובצות, במקרה זה ברמת הרשות המקומית
+- right-censoring: צנזור מימין
+- extensive margin: השוליים האקסטנסיביים, כלומר עצם ההחלטה אם להתקין
+- endogeneity: אנדוגניות
+- policy feedback: משוב בין המדיניות לבין היקף האימוץ
+- causal interpretation: פרשנות סיבתית
+- correlation/association: מתאם / קשר סטטיסטי
+- robustness: עמידות התוצאות למפרטים חלופיים
+- sensitivity analysis: ניתוח רגישות
+- cost-benefit analysis: ניתוח עלות-תועלת
+- cost-effectiveness: עלות-אפקטיביות / יעילות כלכלית של כלי המדיניות
+- induced adoption: אימוץ שנוצר בעקבות התמריץ / התקנות נוספות שהתמריץ הוביל אליהן
+- baseline generation: ייצור חשמל בתרחיש הבסיס
+- windfall payments: תשלומים עודפים למתקנים שהיו מוקמים גם ללא השינוי
+- greenhouse gases (GHG): גזי חממה
+- greenhouse-gas emissions projection model: מודל תחזית פליטות גזי חממה
+- greenhouse-gas inventory: מצאי פליטות גזי חממה
+- emissions-reduction measure: אמצעי הפחתת פליטות
+- mitigation policy: מדיניות הפחתה
+- measurement, reporting and verification (MRV): מדידה, דיווח ואימות; when speaking to a general audience, prefer "מערך המעקב והדיווח הלאומי על פליטות והפחתת פליטות" rather than using the initials alone
+- United Nations Framework Convention on Climate Change (UNFCCC): אמנת המסגרת של האו"ם בנושא שינויי אקלים
+- Conference of the Parties (COP): ועידת האקלים של האו"ם / ועידת הצדדים לאמנה
+- with existing measures (WEM): תרחיש הכולל אמצעי מדיניות קיימים
+- with additional measures (WAM): תרחיש הכולל אמצעי מדיניות נוספים
+- energy security: ביטחון אנרגטי
+- grid constraints: מגבלות רשת
+- grid connection: חיבור לרשת החשמל
+- data visualization: המחשת נתונים / ויזואליזציה של נתונים
+- decision-ready recommendations: המלצות ישימות התומכות בקבלת החלטות
+
+When answering in Hebrew, write numbers and units clearly, for example: 0.01 ש"ח לקוט"ש, 15-100 קילוואט, כ-18.9 מיליון תצפיות, and כ-1.3 מיליון גגות. Avoid untranslated English acronyms unless the English term is given once in parentheses.
