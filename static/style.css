@@ -177,3 +177,29 @@ button:disabled {
 .disclaimer strong {
     color: #4e625b;
 }
+
+.cv-download-button {
+    display: block;
+    width: fit-content;
+    margin: 10px 16px 18px auto;
+    padding: 11px 18px;
+    border-radius: 10px;
+    background-color: #315f51;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.cv-download-button:hover {
+    background-color: #244b40;
+    transform: translateY(-1px);
+}
+
+.cv-download-button:focus-visible {
+    outline: 3px solid rgba(49, 95, 81, 0.3);
+    outline-offset: 2px;
+}

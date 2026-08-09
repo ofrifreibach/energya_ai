@@ -75,10 +75,31 @@
     
             return message;
         }
+
+        function addCvDownloadButton(isHebrew) {
+            const downloadLink = document.createElement("a");
+
+            downloadLink.classList.add("cv-download-button");
+            downloadLink.href =
+                "/static/documents/Ofri_Freibach_CV_26.pdf";
+            downloadLink.download = "Ofri_Freibach_CV.pdf";
+            downloadLink.textContent = isHebrew
+                ? "הורדת קורות החיים של עופרי (PDF)"
+                : "Download Ofri’s CV (PDF)";
+
+            chatHistory.appendChild(downloadLink);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
     
         async function askQuestion() {
             const question = questionInput.value.trim();
-    
+            const normalizedQuestion = question.toLowerCase();
+            const isCvRequest =
+                /\b(cv|resume|résumé|curriculum vitae)\b/i.test(question) ||
+                /קורות\s*חיים/.test(question);
+
+            const isHebrew = /[\u0590-\u05FF]/.test(question);
+
             if (!question || askButton.disabled) {
                 return;
             }
@@ -131,7 +152,10 @@
                 const data = await response.json();
     
                 thinkingMessage.textContent = data.answer;
-    
+                if (isCvRequest) {
+                    addCvDownloadButton(isHebrew);
+                }
+
                 conversation.push({
                     role: "assistant",
                     content: data.answer
