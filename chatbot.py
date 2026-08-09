@@ -1,21 +1,13 @@
 from openai import OpenAI
+from pathlib import Path
 
 
 MODEL = "gpt-4.1-mini"
 openai = OpenAI()
 
-professional_profile = """
-Ofri Freibach is an energy economist.
-
-Approved facts:
-- She has a research master's degree in economics.
-- Her thesis examined rooftop photovoltaic adoption in Israel.
-- She has approximately four years of experience in energy and climate consulting.
-- Her experience includes techno-economic modelling, cost-benefit analysis,
-  investment-feasibility assessment, and energy-policy analysis.
-- Her interests include renewable energy, energy storage, electricity markets,
-  financial analysis, and economic modelling.
-"""
+professional_profile = Path(
+    "professional_profile.txt"
+).read_text(encoding="utf-8")
 
 
 def ask_energy_consultant(question):

@@ -1,0 +1,46 @@
+Energy economist with four years of experience leading techno-economic modeling and advising government and private-sector
+clients on renewable energy, battery storage, and climate policy. Experienced in investment appraisal, regulatory and market
+analysis, storage optimization, econometrics, and translating complex quantitative analysis into decision-ready recommendations.
+PROFESSIONAL EXPERIENCE
+Independent Energy Economics Consultant | Self-employed Feb 2026–Present
+• Provide economic research and modeling services in renewable energy, energy storage, greenhouse-gas life-cycle analysis, and
+emissions-reduction strategies.
+• Mentor participants in the Yannay Institute for Energy Security internship program.
+Senior Economist | EcoTraders 2022–2025
+• Led the development of a flexible techno-economic model assessing the financial viability and required government support
+for different PV and battery storage configurations, while optimizing battery capacity based on tariffs, regulation, generation
+profiles, and project economics.
+• Managed Israel's national greenhouse-gas emissions projection model for two consecutive years, generating projections used
+in official national reports submitted to the United Nations Framework Convention on Climate Change and presented at the
+annual Conference of the Parties.
+• Presented conclusions through reports, executive presentations, and dashboards; managed one direct report.
+Economist (Student) | Ministry of Agriculture and Rural Development 2020–2022
+• Conducted market research and economic analysis, assessing policy effects on domestic industries, competition, prices, and
+market conditions.
+• Translated quantitative findings into policy recommendations for senior decision-makers and led the ministry's 2022 report on
+Israel's wine industry.
+EDUCATION
+MA in Economics | The Hebrew University of Jerusalem 2022–2025
+Thesis (Grade 95): “From Financial Incentives to Installation: The Economics of Solar Adoption in Israel”
+• Examined how system costs and feed-in tariff levels and structures affect the diffusion of photovoltaic systems in Israel.
+• Built an 18-million-observation panel dataset covering approximately 1.3 million rooftops and 50,000 PV adopters; applied
+probit and discrete-time hazard models to estimate how tariffs and expected project returns affect PV deployment.
+BSc in Environmental Economics and Management, with distinction 2019–2022
+ANALYTICAL & TECHNICAL SKILLS
+Energy economics and financial modeling: Techno-economic modeling, PV and storage optimization modeling, cost-benefit analysis,
+regulatory analysis.
+Quantitative methods: Econometrics, statistical analysis, large-scale panel data, market research, data visualization
+Tools: Excel – advanced (Power Query and macros); R – advanced; Python – intermediate
+Languages: Hebrew – native; English – fluent
+MILITARY SERVICE
+Captain | Israeli Air Defense Forces 2012–2017
+• Served as deputy commander of a 120-person Iron Dome battery, supporting operational management, personnel leadership,
+training, and mission readiness.
+• Managed international cooperation courses in air force battle management, coordinating professional content, logistics,
+participants, and operational stakeholders; previously served as a procedures and doctrine officer.
+MAIN PUBLICATIONS
+• Geographic-Energetic-Economic Model for the Advancement of Renewable Energy — Ecology and Environment, 2024 | Lead
+author
+• Energy Security and Public Health in Gush Dan: A Renewable Energy and Storage-Based Solution — Ministry of Energy, 2023 |
+Lead author
+• Israel's Greenhouse Gas Emissions Reduction Report — Ministry of Environmental Protection, 2023–2024 | Lead author
