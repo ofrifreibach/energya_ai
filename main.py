@@ -2,10 +2,13 @@ from pathlib import Path
 from typing import Literal
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+from slowapi.util import get_remote_address
 
 load_dotenv(override=True)
 
@@ -14,17 +17,25 @@ from chatbot import ask_energy_consultant
 
 BASE_DIR = Path(__file__).resolve().parent
 
-MAX_HISTORY_MESSAGES = 10
+MAX_HISTORY_MESSAGES = 20
 MAX_HISTORY_CHARACTERS = 8000
+
+limiter = Limiter(key_func=get_remote_address)
 
 
 class ChatMessage(BaseModel):
     role: Literal["user", "assistant"]
-    content: str = Field(min_length=1, max_length=2000)
+    content: str = Field(
+        min_length=1,
+        max_length=2000,
+    )
 
 
 class ChatRequest(BaseModel):
-    question: str = Field(min_length=1, max_length=500)
+    question: str = Field(
+        min_length=1,
+        max_length=500,
+    )
     history: list[ChatMessage] = Field(
         default_factory=list,
         max_length=MAX_HISTORY_MESSAGES,
@@ -32,6 +43,12 @@ class ChatRequest(BaseModel):
 
 
 app = FastAPI()
+
+app.state.limiter = limiter
+app.add_exception_handler(
+    RateLimitExceeded,
+    _rate_limit_exceeded_handler,
+)
 
 app.mount(
     "/static",
@@ -46,10 +63,11 @@ def home():
 
 
 @app.post("/api/chat")
-def chat(request: ChatRequest):
+@limiter.limit("10/minute")
+def chat(request: Request, chat_request: ChatRequest):
     history = [
         message.model_dump()
-        for message in request.history
+        for message in chat_request.history
     ]
 
     total_history_characters = sum(
@@ -61,7 +79,7 @@ def chat(request: ChatRequest):
         history = history[-6:]
 
     answer = ask_energy_consultant(
-        question=request.question,
+        question=chat_request.question,
         history=history,
     )
 

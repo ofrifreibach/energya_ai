@@ -90,6 +90,12 @@
                 });
     
                 if (!response.ok) {
+                    if (response.status === 429) {
+                        throw new Error(
+                            "You've reached the question limit. Please wait a minute and try again."
+                        );
+                    }
+
                     if (response.status === 422) {
                         throw new Error(
                             "Your question or conversation is too long."
@@ -110,7 +116,7 @@
             } catch (error) {
                 thinkingMessage.textContent =
                     error.message || "Something went wrong. Please try again.";
-                    
+
                 conversation.pop();
             } finally {
                 askButton.disabled = false;
