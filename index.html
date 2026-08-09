@@ -79,16 +79,17 @@
         function addCvDownloadButton(isHebrew) {
             const downloadLink = document.createElement("a");
 
-            downloadLink.classList.add("cv-download-button");
-            downloadLink.href =
-                "/static/documents/Ofri_Freibach_CV_26.pdf";
-            downloadLink.download = "Ofri_Freibach_CV.pdf";
+            downloadLink.className = "cv-download-button";
+            downloadLink.href = "/static/documents/Ofri_Freibach_CV_26.pdf";
+            downloadLink.setAttribute(
+                "download",
+                "Ofri_Freibach_CV.pdf"
+            );
             downloadLink.textContent = isHebrew
                 ? "הורדת קורות החיים של עופרי (PDF)"
                 : "Download Ofri’s CV (PDF)";
 
             chatHistory.appendChild(downloadLink);
-            chatHistory.scrollTop = chatHistory.scrollHeight;
         }
     
         async function askQuestion() {
