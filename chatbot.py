@@ -45,9 +45,10 @@ APPROVED PROFILE:
     })
 
     response = openai.responses.create(
-        model=MODEL,
-        instructions=instructions,
-        input=conversation
+    model=MODEL,
+    instructions=instructions,
+    input=conversation,
+    max_output_tokens=500,
     )
 
     return response.output_text

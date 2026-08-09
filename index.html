@@ -90,6 +90,12 @@
                 });
     
                 if (!response.ok) {
+                    if (response.status === 422) {
+                        throw new Error(
+                            "Your question or conversation is too long."
+                        );
+                    }
+
                     throw new Error("The request failed.");
                 }
     
@@ -103,8 +109,8 @@
                 });
             } catch (error) {
                 thinkingMessage.textContent =
-                    "Something went wrong. Please try again.";
-    
+                    error.message || "Something went wrong. Please try again.";
+                    
                 conversation.pop();
             } finally {
                 askButton.disabled = false;
