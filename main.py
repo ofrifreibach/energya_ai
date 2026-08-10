@@ -1,3 +1,6 @@
+import sqlite3
+from datetime import datetime, timezone
+from uuid import uuid4
 from pathlib import Path
 from typing import Literal
 
@@ -16,6 +19,7 @@ from chatbot import ask_energy_consultant
 
 
 BASE_DIR = Path(__file__).resolve().parent
+DATABASE_PATH = BASE_DIR / "conversations.db"
 
 MAX_HISTORY_MESSAGES = 20
 MAX_HISTORY_CHARACTERS = 8000
@@ -40,7 +44,45 @@ class ChatRequest(BaseModel):
         default_factory=list,
         max_length=MAX_HISTORY_MESSAGES,
     )
+    session_id: str | None = Field(
+    default=None,
+    max_length=100,
+    )
 
+def initialize_database():
+    with sqlite3.connect(DATABASE_PATH) as connection:
+        connection.execute(
+            """
+            CREATE TABLE IF NOT EXISTS conversations (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT NOT NULL,
+                created_at TEXT NOT NULL,
+                question TEXT NOT NULL,
+                answer TEXT NOT NULL
+            )
+            """
+        )
+
+
+def save_conversation(session_id: str, question: str, answer: str):
+    with sqlite3.connect(DATABASE_PATH) as connection:
+        connection.execute(
+            """
+            INSERT INTO conversations (
+                session_id,
+                created_at,
+                question,
+                answer
+            )
+            VALUES (?, ?, ?, ?)
+            """,
+            (
+                session_id,
+                datetime.now(timezone.utc).isoformat(),
+                question,
+                answer,
+            ),
+        )
 
 app = FastAPI()
 
@@ -56,6 +98,9 @@ app.mount(
     name="static",
 )
 
+@app.on_event("startup")
+def startup_event():
+    initialize_database()
 
 @app.get("/")
 def home():
@@ -83,4 +128,15 @@ def chat(request: Request, chat_request: ChatRequest):
         history=history,
     )
 
-    return {"answer": answer}
+    session_id = chat_request.session_id or str(uuid4())
+
+    save_conversation(
+        session_id=session_id,
+        question=chat_request.question,
+        answer=answer,
+    )
+
+    return {
+        "answer": answer,
+        "session_id": session_id,
+    }

@@ -2,3 +2,6 @@
 .env
 __pycache__/
 .ipynb_checkpoints/
+conversations.db
+conversations.db-shm
+conversations.db-wal
