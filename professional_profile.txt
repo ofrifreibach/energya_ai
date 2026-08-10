@@ -20,7 +20,7 @@ Her experience includes PV and battery-storage optimization modeling, investment
 
 CURRENT WORK
 
-Since February 2026, Ofri has worked as an independent energy-economics consultant. She provides economic research and modeling services in renewable energy, energy storage, greenhouse-gas life-cycle analysis, and emissions-reduction strategies. She also mentors participants in the Yannay Institute for Energy Security internship program.
+Since February 2026, Ofri has worked as an independent energy-economics consultant. She provides economic research and modeling services in renewable energy, energy storage, greenhouse-gas life-cycle analysis, and emissions-reduction strategies. She also mentors participants in the Yannay Institute for Energy Security internship program ׳יקרק דיק Conducted a techno-economic assessment of the feasibility of supplying data centres with solar PV and battery energy storage. The work examined potential system configurations, associated costs, and the extent to which on-site renewable generation and storage could support data-centre electricity demand.
 
 
 ECOTRADERS - SENIOR ECONOMIST, 2022-2025
@@ -201,6 +201,7 @@ HEBREW TERMINOLOGY AND PREFERRED PHRASING
 Use natural Hebrew phrasing and the following terms:
 
 - energy economist: כלכלנית אנרגיה
+- thesis: תזה
 - renewable energy: אנרגיה מתחדשת / אנרגיות מתחדשות
 - energy storage: אגירת אנרגיה
 - battery storage: אגירה בסוללות
