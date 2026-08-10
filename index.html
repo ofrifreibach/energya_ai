@@ -103,7 +103,7 @@
                 constitute professional, financial, legal, or other advice.
                 Users should independently verify any information before relying
                 on it. Ofri Freibach accepts no responsibility for decisions or
-                actions taken based on the chatbot’s responses.
+                actions taken based on the chatbot’s responses. Chat messages are stored anonymously for the purpose of reviewing and improving the chatbot. Please do not enter sensitive personal information.
             </p>
         
             <p lang="he" dir="rtl">
@@ -113,7 +113,7 @@
                 חלקיות או מטעות. המידע המוצג אינו מהווה ייעוץ מקצועי, פיננסי,
                 משפטי או אחר. יש לאמת את המידע באופן עצמאי לפני הסתמכות עליו.
                 עופרי פרייבך אינה אחראית להחלטות או לפעולות שיתקבלו על בסיס
-                תשובות הצ׳אטבוט.
+                תשובות הצ׳אטבוט. תוכן השיחות נשמר באופן אנונימי לצורך בחינת הצ׳אטבוט ושיפורו. אין להזין מידע אישי רגיש.
             </p>
         </div>
     </main>
@@ -124,6 +124,7 @@
         const chatHistory = document.getElementById("chat-history");
     
         const conversation = [];
+        let sessionId = sessionStorage.getItem("chat_session_id");
     
         function addMessage(role, text) {
             const message = document.createElement("div");
@@ -191,7 +192,8 @@
                     },
                     body: JSON.stringify({
                         question: question,
-                        history: previousHistory
+                        history: previousHistory,
+                        session_id: sessionId
                     })
                 });
     
@@ -212,6 +214,8 @@
                 }
     
                 const data = await response.json();
+                sessionId = data.session_id;
+                sessionStorage.setItem("chat_session_id", sessionId);
     
                 thinkingMessage.textContent = data.answer;
                 if (isCvRequest) {
